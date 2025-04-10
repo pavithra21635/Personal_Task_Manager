@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,26 +70,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAmwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-09T10:45:54.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "dashboard.css",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
               "RelativeDocumentMoniker": "Personal Task Manager\\wwwroot\\css\\dashboard.css",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
               "RelativeToolTip": "Personal Task Manager\\wwwroot\\css\\dashboard.css",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-09T11:38:05.647Z",
               "EditorCaption": ""
