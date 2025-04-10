@@ -1,0 +1,61 @@
+﻿@model List<Personal_Task_Manager.Models.TaskModel>
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<div  class="dashboard-container">
+    <div class="sidebar">
+        <div>
+            <img src="~/images/new.png" class="logo-img"/>
+        </div>
+        <hr class="sidebar-line" />
+        <div class="menu">
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Tasks</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <div>
+                <h2 class="h3-text">Good morning pristal</h2>
+                <p class="p-text">@DateTime.Now.ToString("dddd, dd'th' MMMM")</p>
+            </div>
+            <div>
+                <button class="create-task-btn">+ Create Task</button>
+                <img src="~/images/user.png" class="user-img" />
+            </div>
+        </div>
+        <hr class="bar-line" />
+
+        <h3 class="priority-class">Priorities</h3>
+        <div class="priorities">
+            @foreach (var task in Model)
+            {
+                <div class="priority-box @task.Priority.ToLower()">
+                    <h4 class="priority-box-title">@task.Title</h4>
+                    <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
+                    <span class="priority-label">@task.Priority</span>
+                </div>
+            }
+
+        </div>
+
+        <h3 class="priority-class">Today tasks</h3>
+        <div class="task-list">
+            @foreach (var task in Model.Where(t => t.Title == "IOS App design"))
+            {
+                <div class="task-item">
+                    <input type="checkbox" class="checkbox-1" @(task.IsCompleted ? "checked" : "") />
+                    <span class="task-title">@task.Title</span>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<link href="~/css/dashboard.css" rel="stylesheet" />
