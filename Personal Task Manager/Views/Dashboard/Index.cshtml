@@ -2,10 +2,10 @@
 @{
     ViewData["Title"] = "Dashboard";
 }
-<div  class="dashboard-container">
+<div class="dashboard-container">
     <div class="sidebar">
         <div>
-            <img src="~/images/new.png" class="logo-img"/>
+            <img src="~/images/new.png" class="logo-img" />
         </div>
         <hr class="sidebar-line" />
         <div class="menu">
@@ -20,7 +20,7 @@
                 <h2 class="h3-text">Good morning pristal</h2>
                 <p class="p-text">@DateTime.Now.ToString("dddd, dd'th' MMMM")</p>
             </div>
-            <div>
+            <div class="header-actions">
                 <button class="create-task-btn">+ Create Task</button>
                 <img src="~/images/user.png" class="user-img" />
             </div>
@@ -37,7 +37,6 @@
                     <span class="priority-label">@task.Priority</span>
                 </div>
             }
-
         </div>
 
         <h3 class="priority-class">Today tasks</h3>
@@ -53,9 +52,5 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 <link href="~/css/dashboard.css" rel="stylesheet" />

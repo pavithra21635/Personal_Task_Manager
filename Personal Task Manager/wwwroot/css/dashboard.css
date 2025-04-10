@@ -1,66 +1,79 @@
 body {
     font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .dashboard-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
+/* Sidebar */
 .sidebar {
     width: 350px;
-    height: 855px;
+    height: 100%;
     background-color: #ffe3f3;
 }
 
 .sidebar-line {
     width: 100%;
     border: 0;
-    border-top: 1px solid #9E9E9E; /* Add the line */
-    margin: 10px 0; /* Adjust the space between logo and menu */
+    border-top: 1px solid #9E9E9E;
+    margin: 10px 0;
 }
 
 .menu {
-    padding-top: 6px; /* Adjust padding to create space between the line and menu */
+    padding-top: 6px;
 }
 
-.menu a {
-    display: block;
-    padding: 15px;
-    /*padding-top: 100px;*/
-    margin: 15px;
-    background: #ff78b3;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-}
+    .menu a {
+        display: block;
+        padding: 15px;
+        margin: 15px;
+        background: #ff78b3;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+    }
 
-.menu a.active {
- background: #ff4da6;
-}
+        .menu a.active {
+            background: #ff4da6;
+        }
 
-main-content {
+/* Main Content */
+.main-content {
     flex: 1;
     padding: 30px;
+    min-width: 0;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
     padding-left: 25px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .h3-text {
     font-size: 29px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
 }
+
 .p-text {
-    padding-top: 1px;
+    margin-top: 5px;
 }
 
-
+/* Buttons */
 .create-task-btn {
-    margin-left: 980px;
-
     background: #ff78b3;
     border: none;
     border-radius: 8px;
@@ -74,21 +87,15 @@ main-content {
 
 .logo-img {
     padding-top: 20px;
+    width: 100%;
 }
 
 .user-img {
-    width:60px;
-    height:60px;
-    margin-left: 10px;
+    width: 60px;
+    height: 60px;
 }
 
-.sidebar-line {
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #9E9E9E; /* Add the line */
-    margin: 10px 0; /* Adjust the space between logo and menu */
-}
-
+/* Priority Section */
 .priority-class {
     padding-left: 25px;
     padding-top: 8px;
@@ -98,14 +105,19 @@ main-content {
 .priorities {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
     margin-top: 20px;
     padding-left: 25px;
+    /*flex-direction: column;*/ /* Stack priorities in a column on smaller screens */
+    /*gap: 15px;*/
 }
 
 .priority-box {
     padding: 15px;
     border-radius: 12px;
-    width: 330px;
+    flex: 1 1 20%; /* Each box takes up 22% of the row, allowing for 4 in a row */
+    min-width: 225px; /* Minimum width for each box */
+    /*width: 225px;*/
     color: white;
 }
 
@@ -117,9 +129,9 @@ main-content {
     background: #ff4da6;
 }
 
-    .priority-box.medium {
-        background: #c17fff;
-    }
+.priority-box.medium {
+    background: #c17fff;
+}
 
 .priority-label {
     display: inline-block;
@@ -129,23 +141,25 @@ main-content {
     font-size: 12px;
 }
 
+/* Tasks Section */
 .task-list {
     margin-top: 20px;
     padding-left: 25px;
 }
 
-
-
 .task-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     padding: 8px;
     border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
 }
 
 .task-title {
     font-size: 20px;
+    flex-grow: 1;
 }
 
 .delete-btn {
@@ -156,6 +170,50 @@ main-content {
 }
 
 .checkbox-1 {
-    transform:scale(1.5);
-    margin-left: 200px;
+    transform: scale(1.0);
+    margin-right: 10px;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .priorities {
+        flex-direction: column;
+    }
+
+    .priority-box {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+
+    .create-task-btn {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .delete-btn {
+        align-self: flex-end;
+    }
+
+    .user-img {
+        margin-left: 0;
+    }
 }
