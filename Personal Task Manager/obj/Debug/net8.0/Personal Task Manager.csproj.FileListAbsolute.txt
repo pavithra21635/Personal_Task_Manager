@@ -32,3 +32,38 @@ C:\Users\pavit\source\repos\Personal Task Manager\Personal Task Manager\obj\Debu
 C:\Users\pavit\source\repos\Personal Task Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.pdb
 C:\Users\pavit\source\repos\Personal Task Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.genruntimeconfig.cache
 C:\Users\pavit\source\repos\Personal Task Manager\Personal Task Manager\obj\Debug\net8.0\ref\Personal Task Manager.dll
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\appsettings.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.staticwebassets.runtime.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.staticwebassets.endpoints.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.exe
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.deps.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.runtimeconfig.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.dll
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\bin\Debug\net8.0\Personal Task Manager.pdb
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.AssemblyInfoInputs.cache
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.AssemblyInfo.cs
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.csproj.CoreCompileInputs.cache
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.RazorAssemblyInfo.cache
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.RazorAssemblyInfo.cs
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.sourcelink.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\scopedcss\bundle\Personal Task Manager.styles.css
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\scopedcss\projectbundle\Personal Task Manager.bundle.scp.css
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets\msbuild.Personal Task Manager.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets\msbuild.Personal Task Manager.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets\msbuild.build.Personal Task Manager.props
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Personal Task Manager.props
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Personal Task Manager.props
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.dll
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\refint\Personal Task Manager.dll
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.pdb
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\Personal Task Manager.genruntimeconfig.cache
+C:\Users\pavit\source\repos\Personal_Task_Manager\Personal Task Manager\obj\Debug\net8.0\ref\Personal Task Manager.dll

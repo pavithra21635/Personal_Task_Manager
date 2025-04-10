@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pavit\\source\\repos\\Personal Task Manager\\Personal Task Manager\\Personal Task Manager.csproj": {}
+    "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Personal Task Manager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pavit\\source\\repos\\Personal Task Manager\\Personal Task Manager\\Personal Task Manager.csproj": {
+    "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Personal Task Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pavit\\source\\repos\\Personal Task Manager\\Personal Task Manager\\Personal Task Manager.csproj",
+        "projectUniqueName": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Personal Task Manager.csproj",
         "projectName": "Personal Task Manager",
-        "projectPath": "C:\\Users\\pavit\\source\\repos\\Personal Task Manager\\Personal Task Manager\\Personal Task Manager.csproj",
+        "projectPath": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Personal Task Manager.csproj",
         "packagesPath": "C:\\Users\\pavit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pavit\\source\\repos\\Personal Task Manager\\Personal Task Manager\\obj\\",
+        "outputPath": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
