@@ -10,10 +10,18 @@ body {
 }
 
 /* Sidebar */
-.sidebar {
+/*.sidebar {
     width: 350px;
     height: 100%;
     background-color: #ffe3f3;
+}*/
+
+.sidebar {
+    width: 350px;
+    height: 100vh; 
+    background-color: #ffe3f3;
+    position: sticky; /* optional if you want it fixed while scrolling */
+    top: 0; /* required for sticky positioning */
 }
 
 .sidebar-line {
@@ -141,6 +149,15 @@ body {
     font-size: 12px;
 }
 
+.task-list-container {
+    background-color: #fff1f7; /* Soft pink */
+    padding: 20px;
+    margin: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
 /* Tasks Section */
 .task-list {
     margin-top: 20px;
@@ -156,6 +173,18 @@ body {
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
 }
+
+/*.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0cfd9;
+}
+
+    .task-item:last-child {
+        border-bottom: none;*/ /* Removes last border */
+    /*}*/
 
 .task-title {
     font-size: 20px;

@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/Personal Task Manager/css/dashboard.bz273hb9nx.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bz273hb9nx"},{"Name":"integrity","Value":"sha256-KT5osd5z103hyZ8k/tPBcn2IqejGJUQBv\u002BflnyIBcjk="},{"Name":"label","Value":"_content/Personal Task Manager/css/dashboard.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3638"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KT5osd5z103hyZ8k/tPBcn2IqejGJUQBv\u002BflnyIBcjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 10:49:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Personal Task Manager/css/dashboard.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KT5osd5z103hyZ8k/tPBcn2IqejGJUQBv\u002BflnyIBcjk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3638"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KT5osd5z103hyZ8k/tPBcn2IqejGJUQBv\u002BflnyIBcjk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 10:49:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kWF5ZLIOSCZq06ck8Q4WWLeinF/V4d8fCmaCjHiImh0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4316"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kWF5ZLIOSCZq06ck8Q4WWLeinF/V4d8fCmaCjHiImh0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 13:56:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Personal Task Manager/css/dashboard.pa922lhg1s.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\dashboard.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pa922lhg1s"},{"Name":"integrity","Value":"sha256-kWF5ZLIOSCZq06ck8Q4WWLeinF/V4d8fCmaCjHiImh0="},{"Name":"label","Value":"_content/Personal Task Manager/css/dashboard.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4316"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kWF5ZLIOSCZq06ck8Q4WWLeinF/V4d8fCmaCjHiImh0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 11 Apr 2025 13:56:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Personal Task Manager/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
