@@ -1,0 +1,112 @@
+
+
+
+.priority-class {
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+.task-list-container {
+    background-color: #fff1f7; /* Soft pink */
+    padding: 20px;
+    margin: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Tasks Section */
+.task-list {
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+create-task-form-container {
+    background-color: #fff3f8;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 30px;
+    max-width: 600px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+    .form-row label {
+        width: 120px;
+        font-weight: normal;
+        font-size: 16px;
+        margin-right: 15px;
+        padding-right : 20px;
+        padding-bottom : 20px;
+    }
+
+    .form-row input,
+    .form-row textarea,
+    .form-row .priority-options {
+        flex: 1;
+    }
+
+.form-control {
+    height: 40px; /* Increase height */
+    padding: 8px 12px;
+    padding-bottom:20px;
+    border: 1px solid #9E9E9E; /* Set border color */
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea.form-control {
+    height: auto; /* Allow textarea to grow */
+    min-height: 80px;
+    resize: vertical;
+}
+
+.priority-options {
+    display: flex;
+    gap: 20px; /* Adjust this to control spacing between options */
+    align-items: center;
+}
+
+    .priority-options input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    .priority-options label {
+        margin-right: 15px;
+        font-weight: normal;
+    }
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #ff4da6; /* A strong pink to match your theme */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /*width: fit-content;*/ /* Ensures button doesn't stretch */
+    width: 100%; /* Stretch to fill the container width */
+    height: 50px;
+    margin-top: 20px;
+}
+
+    .btn-primary:hover {
+        background-color: #e04393; /* Slightly darker on hover */
+    }
+
+
+
+

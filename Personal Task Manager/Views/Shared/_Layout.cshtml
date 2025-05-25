@@ -2,48 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Personal_Task_Manager</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Personal_Task_Manager.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] - Taskly</title>
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    <link rel="stylesheet" href="~/css/create-task.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Personal_Task_Manager</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div>
+                <img src="~/images/new.png" class="logo-img" />
+            </div>
+            <hr class="sidebar-line" />
+            @* <div class="menu">
+                <a asp-controller="Tasks" asp-action="Index" class="@(ViewData["Title"]?.ToString() == "Dashboard" ? "active" : "")">Dashboard</a>
+                <a asp-controller="Tasks" asp-action="Create" class="@(ViewData["Title"]?.ToString() == "Create Task" ? "active" : "")">Tasks</a>
+            </div> *@
+            <div class="menu">
+                <a asp-controller="Dashboard" asp-action="Index"
+                   class="menu-item @(ViewData["Title"]?.ToString() == "Dashboard" ? "active" : "")">
+                    <img src="~/images/DashboardLayout.png" class="menu-icon" />
+                    <span>Dashboard</span>
+                </a>
+
+
+                <a asp-controller="Tasks" asp-action="Create"
+                   class="menu-item @(ViewData["Title"]?.ToString() == "Create Task" ? "active" : "")">
+                    <img src="~/images/ToDo.png" class="menu-icon" />
+                    <span>Tasks</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <div>
+                    <h2 class="h3-text">Good morning pristal</h2>
+                    <p class="p-text">@DateTime.Now.ToString("dddd, dd'th' MMMM")</p>
+                </div>
+                <div class="header-actions">
+                    <a class="create-task-btn" asp-controller="Tasks" asp-action="Create">+ Create Task</a>
+                    <img src="~/images/user.png" class="user-img" />
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+            <hr class="bar-line" />
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Personal_Task_Manager - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <!-- Content from the specific view will go here -->
+            @RenderBody()                                                                                                                          
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    </div>
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+
 </body>
 </html>

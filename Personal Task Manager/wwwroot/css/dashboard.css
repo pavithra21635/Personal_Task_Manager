@@ -1,4 +1,4 @@
-body {
+﻿body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
     margin: 10px 0;
 }
 
-.menu {
+/*.menu {
     padding-top: 6px;
 }
 
@@ -47,7 +47,45 @@ body {
 
         .menu a.active {
             background: #ff4da6;
-        }
+        }*/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: #ffe3f3;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #FF7EB9;
+}
+
+    .menu-item.active {
+        background-color: #ff78b3;
+        color: #3D3D3D;
+    }
+
+    .menu-item:hover {
+        border: 2px solid #ff78b3;
+        background-color: #ffe3f3;
+    }
+
+.menu-icon {
+    width: 20px;
+    height: 20px;
+}
 
 /* Main Content */
 .main-content {
@@ -82,16 +120,25 @@ body {
 
 /* Buttons */
 .create-task-btn {
-    background: #ff78b3;
-    border: none;
-    border-radius: 8px;
+    background-color: #ff78b3;
     color: white;
+    border: none;
     padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    /*display: inline-block;*/
     cursor: pointer;
-    width: 150px;
-    height: 50px;
-    font-size: 14px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
 }
+
+    .create-task-btn:hover {
+        background-color: #ff4da6;
+        text-decoration: none;
+    }
+
 
 .logo-img {
     padding-top: 20px;
@@ -246,3 +293,5 @@ body {
         margin-left: 0;
     }
 }
+
+
