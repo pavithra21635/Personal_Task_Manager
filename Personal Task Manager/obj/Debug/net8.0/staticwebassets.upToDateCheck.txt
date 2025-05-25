@@ -1,8 +1,11 @@
+wwwroot\css\create-task.css
 wwwroot\css\dashboard.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\DashboardLayout.png
 wwwroot\images\Logo.png
 wwwroot\images\new.png
+wwwroot\images\ToDo.png
 wwwroot\images\user.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

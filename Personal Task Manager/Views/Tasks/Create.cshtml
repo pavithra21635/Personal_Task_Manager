@@ -1,0 +1,68 @@
+﻿@model Personal_Task_Manager.Models.TaskModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Create Task";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="success-message" style="background-color: #d4edda; color: #155724; padding: 10px; border-radius: 5px;">
+        @TempData["SuccessMessage"]
+    </div>
+
+    <script>
+        setTimeout(function () {
+            var msg = document.getElementById('success-message');
+            if (msg) {
+                msg.style.transition = 'opacity 0.5s ease';
+                msg.style.opacity = '0';
+                setTimeout(() => msg.remove(), 500); // Remove after fade-out
+            }
+        }, 6000); // 6000 milliseconds = 6 seconds
+    </script>
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/create-task.css" />
+
+</head>
+
+<h3 class="priority-class">Create Task</h3>
+<div class="task-list-container">
+   <div class="task-list">
+      <div class="create-task-form-container">
+         <form asp-action="Create" method="post">
+                <div class="form-row">
+                    <label>Task Name:</label>
+                    <input asp-for="Title" class="form-control" />
+                </div>
+                <div class="form-row">
+                    <label>Start Date:</label>
+                    <input asp-for="StartDate" type="date" class="form-control" />
+                </div>
+                <div class="form-row">
+                    <label>Due Date:</label>
+                    <input asp-for="DueDate" type="date" class="form-control" />
+                </div>
+                <div class="form-row">
+                    <label>Description:</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                </div>
+                <div class="form-row">
+                    <label>Priority:</label>
+                    <div class="priority-options">
+                        <label><input type="radio" asp-for="Priority" value="High" /> High</label>
+                        <label><input type="radio" asp-for="Priority" value="Medium" /> Medium</label>
+                        <label><input type="radio" asp-for="Priority" value="Low" /> Low</label>
+                    </div>
+                </div>
+               @*  <button type="submit" class="btn btn-primary">Create Task</button> *@
+                <div class="button-container">
+                    <button type="submit" class="btn-primary">Create Task</button>
+                </div>
+
+            </form>
+       </div>
+   </div>
+</div>
