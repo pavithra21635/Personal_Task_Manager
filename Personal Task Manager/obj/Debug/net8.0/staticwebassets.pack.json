@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Personal Task Manager.0b9dpr04yt.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
+      "PackagePath": "staticwebassets\\css\\Tasks.css"
+    },
+    {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\create-task.css",
       "PackagePath": "staticwebassets\\css\\create-task.css"
     },
