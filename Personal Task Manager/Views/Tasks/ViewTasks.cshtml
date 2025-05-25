@@ -1,0 +1,55 @@
+﻿@model List<Personal_Task_Manager.Models.TaskModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "All Tasks";
+}
+
+<link rel="stylesheet" href="~/css/tasks.css" />
+
+<div class="tasks-board">
+    <div class="header">
+        <h2>All Tasks</h2>
+        <div class="filter">
+            <span>Filter By</span>
+            <img src="~/images/filter-icon.png" alt="Filter" />
+        </div>
+    </div>
+
+    <div class="tasks-columns">
+        <div class="task-column">
+            <h4>To Do</h4>
+            @foreach (var task in Model.Where(t => t.Status == "To Do"))
+            {
+                <div class="task-card @task.Priority.ToLower()">
+                    <h5>@task.Title</h5>
+                    <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
+                    <span class="priority-label">@task.Priority</span>
+                </div>
+            }
+        </div>
+
+        <div class="task-column">
+            <h4>In Progress</h4>
+            @foreach (var task in Model.Where(t => t.Status == "In Progress"))
+            {
+                <div class="task-card @task.Priority.ToLower()">
+                    <h5>@task.Title</h5>
+                    <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
+                    <span class="priority-label">@task.Priority</span>
+                </div>
+            }
+        </div>
+
+        <div class="task-column">
+            <h4>Done</h4>
+            @foreach (var task in Model.Where(t => t.Status == "Done"))
+            {
+                <div class="task-card @task.Priority.ToLower()">
+                    <h5>@task.Title</h5>
+                    <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
+                    <span class="priority-label">@task.Priority</span>
+                </div>
+            }
+        </div>
+    </div>
+</div>

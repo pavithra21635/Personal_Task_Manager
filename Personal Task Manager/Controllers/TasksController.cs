@@ -25,18 +25,42 @@ namespace Personal_Task_Manager.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(TaskModel task)
         {
+            task.Status = "To Do"; // Automatically set status
+
             if (ModelState.IsValid)
             {
                 _context.Tasks.Add(task);
                 _context.SaveChanges();
 
-                TempData["SuccessMessage"] = "Task created successfully!";
+                 TempData["SuccessMessage"] = "Task created successfully!";
+                
 
                 return RedirectToAction("Create", "Tasks");
             }
+
+            //// Debugging model errors
+            //var errors = ModelState.Values.SelectMany(v => v.Errors)
+            //                              .Select(e => e.ErrorMessage).ToList();
+            //TempData["SuccessMessage"] = "Model invalid: " + string.Join(", ", errors);
+
             return View(task);
         }
+
+        public IActionResult All()
+        {
+            var tasks = _context.Tasks.ToList(); // Adjust based on your data source
+            return View(tasks);
+        }
+
+        public IActionResult ViewTasks()
+        {
+            var tasks = _context.Tasks.ToList(); // Fetch tasks from DB or service
+            return View("ViewTasks", tasks);     // Explicitly specify view name
+        }
+
+
     }
 }

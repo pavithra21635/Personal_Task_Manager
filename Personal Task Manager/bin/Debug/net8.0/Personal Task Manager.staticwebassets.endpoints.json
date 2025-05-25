@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "css/Tasks.0w955ccmqq.css",
+      "AssetFile": "css/Tasks.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 13:44:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0w955ccmqq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE="
+        },
+        {
+          "Name": "label",
+          "Value": "css/Tasks.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/Tasks.css",
+      "AssetFile": "css/Tasks.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 13:44:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE="
+        }
+      ]
+    },
+    {
       "Route": "css/create-task.css",
       "AssetFile": "css/create-task.css",
       "Selectors": [],

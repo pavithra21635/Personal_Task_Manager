@@ -1,6 +1,7 @@
 wwwroot\css\create-task.css
 wwwroot\css\dashboard.css
 wwwroot\css\site.css
+wwwroot\css\Tasks.css
 wwwroot\favicon.ico
 wwwroot\images\DashboardLayout.png
 wwwroot\images\Logo.png
