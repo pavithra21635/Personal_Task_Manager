@@ -4,120 +4,137 @@
     ViewData["Title"] = "All Tasks";
 }
 
-<link rel="stylesheet" href="~/css/tasks.css" />
 
-<div class="tasks-board">
-    <div class="header">
-        <h2 class="priority-class">All Tasks</h2>
-        <div class="filter-wrapper">
-            <button class="filter-button" onclick="toggleFilterDropdown()">
-                <img src="~/images/Tune.png" class="filter-icon" />
-                <span>Filter By</span>
-            </button>
-            <div class="filter-dropdown" id="filterDropdown">
-                <div class="filter-option" onclick="applyFilter('Priority')">By Priority</div>
-                <div class="filter-option" onclick="applyFilter('DueDate')">By Due Date</div>
+<head>
+    <link rel="stylesheet" href="~/css/tasks.css" />
+    <script src="~/js/Tasks.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="tasks-board">
+
+        <div class="header">
+            <h2 class="priority-class">All Tasks</h2>
+
+            <div class="filter-wrapper">
+                <button class="filter-button" onclick="toggleFilterDropdown()">
+                    <img src="~/images/Tune.png" class="filter-icon" />
+                    <span>Filter By</span>
+                </button>
+
+                <div class="filter-dropdown" id="filterDropdown">
+                    <div class="filter-option" onclick="applyFilter('Priority')">By Priority</div>
+                    <div class="filter-option" onclick="applyFilter('DueDate')">By Due Date</div>
+                </div>
+
             </div>
+
         </div>
 
-    </div>
+        <div class="tasks-columns">
+            @foreach (var status in new[] { "To Do", "In Progress", "Done" })
+            {
+                <div class="task-column" ondrop="drop(event, '@status')" ondragover="allowDrop(event)">
+                    <h4 class="status-class">@status</h4>
+                    @foreach (var task in Model.Where(t => t.Status == status))
+                    {
+                        <div class="task-card @task.Priority.ToLower()" draggable="true"
+                             ondragstart="drag(event)" id="task-@task.Id" data-id="@task.Id"
+                             data-priority="@task.Priority.ToLower()" data-duedate="@task.DueDate.ToString("yyyy-MM-dd")"
+                             data-title="@task.Title" data-description="@task.Description" data-status="@task.Status">
+                            <h5 class="priority-box-title">@task.Title</h5>
+                            <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
 
-    <div class="tasks-columns">
-        @foreach (var status in new[] { "To Do", "In Progress", "Done" })
-        {
-            <div class="task-column" ondrop="drop(event, '@status')" ondragover="allowDrop(event)">
-                <h4 class="status-class">@status</h4>
-                @foreach (var task in Model.Where(t => t.Status == status))
-                {
-                    <div class="task-card @task.Priority.ToLower()" draggable="true"
+                            <div class="task-card-footer">
+                                <span class="priority-label">@task.Priority</span>
+                                <button class="view-details" onclick="openModal(this)">
+                                    <span>View Details</span>
+                                    <img src="~/images/Right Arrow.png" class="view-details-icon" />
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                        @*  <div class="task-card @task.Priority.ToLower()" draggable="true"
                          ondragstart="drag(event)" id="task-@task.Id" data-id="@task.Id"
                          data-priority="@task.Priority.ToLower()" data-duedate="@task.DueDate.ToString("yyyy-MM-dd")">
                         <h5 class="priority-box-title">@task.Title</h5>
                         <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
                         <span class="priority-label">@task.Priority</span>
-                    </div>
+                    </div> *@
+                    }
+                </div>
+            }
+        </div>
 
-                }
+        @* <div id="taskModal" class="modal-overlay">
+
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">×</span>
+                <h3 id="modalTitle"></h3>
+                <p><strong>Due Date:</strong> <span id="modalDueDate"></span></p>
+                <p><strong>Priority:</strong> <span id="modalPriority"></span></p>
+                <p><strong>Status:</strong> <span id="modalStatus"></span></p>
+                <p><strong>Description:</strong> <span id="modalDescription"></span></p>
             </div>
-        }
+
+        </div> *@
+
+        <div id="taskModal" class="modal-overlay">
+            <div class="modal-content">
+                <span class="close-button" onclick="closeModal()">×</span>
+
+                <h2 id="modalTitle" class="modal-title"></h2>
+
+                <div class="modal-section">
+                    <div class="modal-row">
+                        <div class="modal-label">📅 Created Time</div>
+                        <div class="modal-value" id="modalCreatedTime">February 12, 2025 – 10:35 AM</div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="modal-label">🌐 Status</div>
+                        <div class="modal-value" id="modalStatus">In Research</div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="modal-label">🚩 Priority</div>
+                        <div class="modal-value" id="modalPriority">Low</div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="modal-label">📆 Due Date</div>
+                        <div class="modal-value" id="modalDueDate">Feb 12 – Feb 22, 2025</div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="modal-label">🏷️ Tags</div>
+                        <div class="modal-value" id="modalTags">
+                            <span class="tag">Task</span>
+                            <span class="tag">Wireframe</span>
+                            <span class="tag">Homepage</span>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="modal-label">👥 Assignees</div>
+                        <div class="modal-value" id="modalAssignees">
+                            <img src="~/images/user1.jpg" class="assignee-img" />
+                            <img src="~/images/user2.jpg" class="assignee-img" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-description-box">
+                    <strong>Project Description</strong>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+</body>
 
-   
 
 
-</div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    let draggedTaskId = null;
-
-    function drag(event) {
-        draggedTaskId = event.target.dataset.id;
-    }
-
-    function allowDrop(event) {
-        event.preventDefault();
-    }
-
-    function drop(event, newStatus) {
-        event.preventDefault();
-
-        const taskCard = document.getElementById('task-' + draggedTaskId);
-        event.currentTarget.appendChild(taskCard);
-
-        $.ajax({
-            url: '/Tasks/UpdateStatus',
-            type: 'POST',
-            data: {
-                id: draggedTaskId,
-                newStatus: newStatus
-            },
-            success: function () {
-                console.log("Status updated successfully.");
-            },
-            error: function () {
-                alert("Failed to update task status.");
-            }
-        });
-    }
-
-    function toggleFilterDropdown() {
-        const dropdown = document.getElementById('filterDropdown');
-        dropdown.style.display = dropdown.style.display === 'flex' ? 'none' : 'flex';
-    }
-
-    function applyFilter(type) {
-        document.getElementById('filterDropdown').style.display = 'none';
-
-        const priorityOrder = { "high": 1, "medium": 2, "low": 3 };
-
-        document.querySelectorAll('.task-column').forEach(column => {
-            const cards = Array.from(column.querySelectorAll('.task-card'));
-
-            let sortedCards = cards;
-
-            if (type === 'Priority') {
-                sortedCards = cards.sort((a, b) => {
-                    return priorityOrder[a.dataset.priority] - priorityOrder[b.dataset.priority];
-                });
-            } else if (type === 'DueDate') {
-                sortedCards = cards.sort((a, b) => {
-                    return new Date(a.dataset.duedate) - new Date(b.dataset.duedate);
-                });
-            }
-
-            // Clear column & re-append sorted cards
-            cards.forEach(card => card.remove());
-            sortedCards.forEach(card => column.appendChild(card));
-        });
-    }
-
-    // Optional: close dropdown on outside click
-    document.addEventListener('click', function (e) {
-        const dropdown = document.getElementById('filterDropdown');
-        const button = document.querySelector('.filter-button');
-        if (!dropdown.contains(e.target) && !button.contains(e.target)) {
-            dropdown.style.display = 'none';
-        }
-    });
-</script>

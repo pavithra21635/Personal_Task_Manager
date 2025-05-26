@@ -4,12 +4,15 @@ wwwroot\css\site.css
 wwwroot\css\Tasks.css
 wwwroot\favicon.ico
 wwwroot\images\DashboardLayout.png
+wwwroot\images\Eye.png
 wwwroot\images\Logo.png
 wwwroot\images\new.png
+wwwroot\images\Right Arrow.png
 wwwroot\images\ToDo.png
 wwwroot\images\Tune.png
 wwwroot\images\user.png
 wwwroot\js\site.js
+wwwroot\js\Tasks.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

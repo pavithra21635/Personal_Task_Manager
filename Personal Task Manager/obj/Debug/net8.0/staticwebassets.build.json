@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "faO3mZb4LnmMYFKqTg2F7IJzHPQb/frirf+QhQSVwt4=",
+  "Hash": "8uyYG+oNSM/T6M0Sc4lrghltwQBlrcjG9nsS8CMtCl8=",
   "Source": "Personal Task Manager",
   "BasePath": "_content/Personal Task Manager",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "efo51e2f3m",
-      "Integrity": "6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=",
+      "Fingerprint": "6q6b7qank5",
+      "Integrity": "zmXWt3SqPUd+TGHJ8aKLUR1npVgVn08yicO9t3p3r/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Tasks.css"
@@ -185,6 +185,27 @@
       "OriginalItemSpec": "wwwroot\\images\\DashboardLayout.png"
     },
     {
+      "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Eye.png",
+      "SourceId": "Personal Task Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\",
+      "BasePath": "_content/Personal Task Manager",
+      "RelativePath": "images/Eye#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c17ktc9w9x",
+      "Integrity": "YCL+uaMxAP2MiqBIuJHPP/wPZpKpYnjcFmqf74K5z1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Eye.png"
+    },
+    {
       "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Logo.png",
       "SourceId": "Personal Task Manager",
       "SourceType": "Discovered",
@@ -225,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\new.png"
+    },
+    {
+      "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Right Arrow.png",
+      "SourceId": "Personal Task Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\",
+      "BasePath": "_content/Personal Task Manager",
+      "RelativePath": "images/Right Arrow#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ibl6nffz5",
+      "Integrity": "iKCTHcZhIci3JhhL0keIEZ8pfYuCKFeR8Hj1Yma0Om8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Right Arrow.png"
     },
     {
       "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\ToDo.png",
@@ -309,6 +351,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
+      "SourceId": "Personal Task Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\",
+      "BasePath": "_content/Personal Task Manager",
+      "RelativePath": "js/Tasks#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q0m14izzk4",
+      "Integrity": "uiG9Qmyufnp7XwR+6hmFXfv2eBTgb4D1IaC3icswe68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Tasks.js"
     },
     {
       "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1756,6 +1819,51 @@
       ]
     },
     {
+      "Route": "css/Tasks.6q6b7qank5.css",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zmXWt3SqPUd+TGHJ8aKLUR1npVgVn08yicO9t3p3r/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 13:23:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6q6b7qank5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Tasks.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zmXWt3SqPUd+TGHJ8aKLUR1npVgVn08yicO9t3p3r/4="
+        }
+      ]
+    },
+    {
       "Route": "css/Tasks.css",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
       "Selectors": [],
@@ -1766,7 +1874,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2857"
+          "Value": "5684"
         },
         {
           "Name": "Content-Type",
@@ -1774,11 +1882,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=\""
+          "Value": "\"zmXWt3SqPUd+TGHJ8aKLUR1npVgVn08yicO9t3p3r/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 09:32:45 GMT"
+          "Value": "Mon, 26 May 2025 13:23:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1788,52 +1896,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0="
-        }
-      ]
-    },
-    {
-      "Route": "css/Tasks.efo51e2f3m.css",
-      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2857"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 26 May 2025 09:32:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "efo51e2f3m"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Tasks.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0="
+          "Value": "sha256-zmXWt3SqPUd+TGHJ8aKLUR1npVgVn08yicO9t3p3r/4="
         }
       ]
     },
@@ -2002,6 +2065,88 @@
       ]
     },
     {
+      "Route": "images/Eye.c17ktc9w9x.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Eye.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YCL+uaMxAP2MiqBIuJHPP/wPZpKpYnjcFmqf74K5z1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 11:52:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c17ktc9w9x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Eye.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YCL+uaMxAP2MiqBIuJHPP/wPZpKpYnjcFmqf74K5z1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/Eye.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Eye.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YCL+uaMxAP2MiqBIuJHPP/wPZpKpYnjcFmqf74K5z1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 11:52:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YCL+uaMxAP2MiqBIuJHPP/wPZpKpYnjcFmqf74K5z1s="
+        }
+      ]
+    },
+    {
       "Route": "images/Logo.png",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Logo.png",
       "Selectors": [],
@@ -2162,6 +2307,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-aA7zvPZ6CtprlCegQXixtNNN+ziMdz/1+Ub8+fHn99c="
+        }
+      ]
+    },
+    {
+      "Route": "images/Right Arrow.0ibl6nffz5.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Right Arrow.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iKCTHcZhIci3JhhL0keIEZ8pfYuCKFeR8Hj1Yma0Om8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ibl6nffz5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Right Arrow.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iKCTHcZhIci3JhhL0keIEZ8pfYuCKFeR8Hj1Yma0Om8="
+        }
+      ]
+    },
+    {
+      "Route": "images/Right Arrow.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Right Arrow.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iKCTHcZhIci3JhhL0keIEZ8pfYuCKFeR8Hj1Yma0Om8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 12:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iKCTHcZhIci3JhhL0keIEZ8pfYuCKFeR8Hj1Yma0Om8="
         }
       ]
     },
@@ -2490,6 +2717,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/Tasks.js",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uiG9Qmyufnp7XwR+6hmFXfv2eBTgb4D1IaC3icswe68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 13:14:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uiG9Qmyufnp7XwR+6hmFXfv2eBTgb4D1IaC3icswe68="
+        }
+      ]
+    },
+    {
+      "Route": "js/Tasks.q0m14izzk4.js",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3203"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uiG9Qmyufnp7XwR+6hmFXfv2eBTgb4D1IaC3icswe68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 13:14:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0m14izzk4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Tasks.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uiG9Qmyufnp7XwR+6hmFXfv2eBTgb4D1IaC3icswe68="
         }
       ]
     },
