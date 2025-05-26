@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Glv4ns4lVJxfvyNshioa9RWYi4alhGw1qWDUEnoeX+8=",
+  "Hash": "faO3mZb4LnmMYFKqTg2F7IJzHPQb/frirf+QhQSVwt4=",
   "Source": "Personal Task Manager",
   "BasePath": "_content/Personal Task Manager",
   "Mode": "Default",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0w955ccmqq",
-      "Integrity": "sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE=",
+      "Fingerprint": "efo51e2f3m",
+      "Integrity": "6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Tasks.css"
@@ -246,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ToDo.png"
+    },
+    {
+      "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Tune.png",
+      "SourceId": "Personal Task Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\",
+      "BasePath": "_content/Personal Task Manager",
+      "RelativePath": "images/Tune#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cthytydukw",
+      "Integrity": "sOOs93dsnyEieCoBTjlXUKaQ3ilh4xT6UZPYXVfrtec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tune.png"
     },
     {
       "Identity": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\user.png",
@@ -1735,51 +1756,6 @@
       ]
     },
     {
-      "Route": "css/Tasks.0w955ccmqq.css",
-      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "929"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 13:44:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0w955ccmqq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Tasks.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE="
-        }
-      ]
-    },
-    {
       "Route": "css/Tasks.css",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
       "Selectors": [],
@@ -1790,7 +1766,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "929"
+          "Value": "2857"
         },
         {
           "Name": "Content-Type",
@@ -1798,11 +1774,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE=\""
+          "Value": "\"6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 13:44:14 GMT"
+          "Value": "Mon, 26 May 2025 09:32:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1812,7 +1788,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sCkMbIdhne+M3nmUmVgCYc4oT3lEWJQnSRzrOv34EJE="
+          "Value": "sha256-6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Tasks.efo51e2f3m.css",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 09:32:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efo51e2f3m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Tasks.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6oOxbJ4xqjYiT5vwe36Dk7K9nzkKvAxfoZfSKcrmzP0="
         }
       ]
     },
@@ -2223,6 +2244,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-z4ZdAISy8L1seUzfA8WtWj2SUcFNJ9pJPZrqEV25kEc="
+        }
+      ]
+    },
+    {
+      "Route": "images/Tune.cthytydukw.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Tune.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sOOs93dsnyEieCoBTjlXUKaQ3ilh4xT6UZPYXVfrtec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 07:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cthytydukw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Tune.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sOOs93dsnyEieCoBTjlXUKaQ3ilh4xT6UZPYXVfrtec="
+        }
+      ]
+    },
+    {
+      "Route": "images/Tune.png",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Tune.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sOOs93dsnyEieCoBTjlXUKaQ3ilh4xT6UZPYXVfrtec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 07:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sOOs93dsnyEieCoBTjlXUKaQ3ilh4xT6UZPYXVfrtec="
         }
       ]
     },

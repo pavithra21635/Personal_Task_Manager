@@ -49,6 +49,19 @@ namespace Personal_Task_Manager.Controllers
             return View(task);
         }
 
+        [HttpPost]
+        public IActionResult UpdateStatus(int id, string newStatus)
+        {
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null)
+                return NotFound();
+
+            task.Status = newStatus;
+            _context.SaveChanges();
+
+            return Ok();
+        }
+
         public IActionResult All()
         {
             var tasks = _context.Tasks.ToList(); // Adjust based on your data source

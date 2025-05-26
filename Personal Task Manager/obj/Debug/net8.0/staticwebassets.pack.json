@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\images\\ToDo.png"
     },
     {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Tune.png",
+      "PackagePath": "staticwebassets\\images\\Tune.png"
+    },
+    {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\new.png",
       "PackagePath": "staticwebassets\\images\\new.png"
     },

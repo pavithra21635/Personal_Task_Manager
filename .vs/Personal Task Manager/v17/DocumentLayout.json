@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\tasks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\tasks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\tasks\\viewtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\tasks\\viewtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\tasks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\tasks.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\tasks\\viewtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\tasks\\viewtasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\data\\applicationdbcontext.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|solutionrelative:personal task manager\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBBBF5DD-0225-4725-80B1-9DAAE15DA1C0}|Personal Task Manager\\Personal Task Manager.csproj|c:\\users\\pavit\\source\\repos\\personal_task_manager\\personal task manager\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,78 +114,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "Personal Task Manager\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "Personal Task Manager\\Controllers\\TasksController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:49:24.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TaskModel.cs",
-              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\TaskModel.cs",
-              "RelativeDocumentMoniker": "Personal Task Manager\\Models\\TaskModel.cs",
-              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\TaskModel.cs",
-              "RelativeToolTip": "Personal Task Manager\\Models\\TaskModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T10:41:29.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs.cs",
-              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
-              "RelativeDocumentMoniker": "Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
-              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
-              "RelativeToolTip": "Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T09:57:12.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Tasks\\Create.cshtml",
               "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Tasks\\Create.cshtml",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Tasks\\Create.cshtml",
               "RelativeToolTip": "Personal Task Manager\\Views\\Tasks\\Create.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAiwD0AAABKAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T10:46:36.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tasks.css",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
               "RelativeDocumentMoniker": "Personal Task Manager\\wwwroot\\css\\Tasks.css",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
               "RelativeToolTip": "Personal Task Manager\\wwwroot\\css\\Tasks.css",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwJcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-25T12:39:57.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T10:45:54.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ViewTasks.cshtml",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Tasks\\ViewTasks.cshtml",
               "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Tasks\\ViewTasks.cshtml",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Tasks\\ViewTasks.cshtml",
               "RelativeToolTip": "Personal Task Manager\\Views\\Tasks\\ViewTasks.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-25T12:21:49.215Z",
               "EditorCaption": ""
@@ -198,53 +172,40 @@
               "RelativeDocumentMoniker": "Personal Task Manager\\wwwroot\\css\\dashboard.css",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
               "RelativeToolTip": "Personal Task Manager\\wwwroot\\css\\dashboard.css",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAnwLsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-09T11:38:05.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Personal Task Manager\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Personal Task Manager\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T10:49:24.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Personal Task Manager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwCAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-04T06:55:12.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Personal Task Manager\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T10:45:54.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Personal Task Manager\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Personal Task Manager\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:25:51.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Personal Task Manager\\Controllers\\DashboardController.cs",
@@ -258,6 +219,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs.cs",
+              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
+              "RelativeDocumentMoniker": "Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
+              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
+              "RelativeToolTip": "Personal Task Manager\\Data\\ApplicationDbContext.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:57:12.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "Personal Task Manager\\Models\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\TaskModel.cs",
+              "RelativeToolTip": "Personal Task Manager\\Models\\TaskModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:41:29.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Personal Task Manager\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Personal Task Manager\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T10:25:51.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Personal Task Manager\\wwwroot\\css\\site.css",
@@ -265,8 +263,7 @@
               "RelativeToolTip": "Personal Task Manager\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-25T07:12:55.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T07:12:55.835Z"
             },
             {
               "$type": "Document",

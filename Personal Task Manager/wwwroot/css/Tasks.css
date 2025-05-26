@@ -1,19 +1,89 @@
-.tasks-board {
-    padding: 30px;
-    background-color: #fff6fb;
+﻿.tasks-board {
+   /* padding: 30px;*/
+    /*background-color: #fff6fb;*/
     border-radius: 12px;
 }
 
 .header {
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    align-items: center;*/
+    margin-bottom: 5px;
 }
+
+/* Priority Section */
+.priority-class {
+    padding-left: 25px;
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+.filter-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.filter-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 12px;
+    background-color: #ffe3f3;
+    border: 1px solid #FF7EB9;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D3D3D;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+    .filter-button:hover {
+        border-color: #ff78b3;
+        background-color: #ffe3f3;
+    }
+
+.filter-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.filter-dropdown {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    background-color: #fff0f8;
+    border: 1px solid #ff78b3;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+    .filter-dropdown .filter-option {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+        .filter-dropdown .filter-option:hover {
+            background-color: #ffe3f3;
+        }
+
+.status-class {
+    font-size: 18px;
+}
+
 
 .tasks-columns {
     display: flex;
     gap: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .task-column {
@@ -23,12 +93,21 @@
     border-radius: 10px;
 }
 
+
+
+
+
+
 .task-card {
-    border-radius: 8px;
-    padding: 15px;
-    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* controls space between title, date, label */
 }
 
     .task-card.high {
@@ -43,11 +122,32 @@
         background-color: #6fcf97;
     }
 
+.drag-over {
+    background-color: #f0f0f0;
+}
+
+
+
 .priority-label {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 0.8rem;
+    /* background-color: rgba(255, 255, 255, 0.2);*/
+    padding: 4px 8px;
+    /*border-radius: 5px;
+    font-size: 0.8rem;*/
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-size: 14px;
+    width: fit-content; /* ✅ This is key */
+    align-self: flex-start; /* Prevents full stretch inside flex column */
+}
+
+.priority-box-title {
+    font-size: 22px;
+    margin: 5px;
+}
+.task-card p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
 }
