@@ -74,6 +74,42 @@ namespace Personal_Task_Manager.Controllers
             return View("ViewTasks", tasks);     // Explicitly specify view name
         }
 
+        [HttpPost]
+        public IActionResult UpdateTask([FromBody] TaskModel updatedTask)
+        {
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == updatedTask.Id);
+            if (task == null) return NotFound();
+
+            task.Title = updatedTask.Title;
+            task.StartDate = updatedTask.StartDate;
+            task.DueDate = updatedTask.DueDate;
+            task.Status = updatedTask.Status;
+            task.Priority = updatedTask.Priority;
+            task.CreatedDate = updatedTask.CreatedDate;
+            task.Description = updatedTask.Description;
+
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpPost]
+        public IActionResult DeleteTask(int id)
+        {
+            var task = _context.Tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            _context.Tasks.Remove(task);
+            _context.SaveChanges();
+
+            return Ok();
+        }
+
+
+
+
 
     }
 }

@@ -25,12 +25,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Calendar (1).png",
+      "PackagePath": "staticwebassets\\images\\Calendar (1).png"
+    },
+    {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Calendar.png",
+      "PackagePath": "staticwebassets\\images\\Calendar.png"
+    },
+    {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\DashboardLayout.png",
       "PackagePath": "staticwebassets\\images\\DashboardLayout.png"
     },
     {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Delivery Time.png",
+      "PackagePath": "staticwebassets\\images\\Delivery Time.png"
+    },
+    {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Eye.png",
       "PackagePath": "staticwebassets\\images\\Eye.png"
+    },
+    {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\High Importance.png",
+      "PackagePath": "staticwebassets\\images\\High Importance.png"
     },
     {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Logo.png",
@@ -39,6 +55,14 @@
     {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Right Arrow.png",
       "PackagePath": "staticwebassets\\images\\Right Arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Spinner.png",
+      "PackagePath": "staticwebassets\\images\\Spinner.png"
+    },
+    {
+      "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\Tags.png",
+      "PackagePath": "staticwebassets\\images\\Tags.png"
     },
     {
       "Id": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\images\\ToDo.png",
