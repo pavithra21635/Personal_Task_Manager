@@ -3,12 +3,22 @@ wwwroot\css\dashboard.css
 wwwroot\css\site.css
 wwwroot\css\Tasks.css
 wwwroot\favicon.ico
+wwwroot\images\Calendar (1).png
+wwwroot\images\Calendar.png
 wwwroot\images\DashboardLayout.png
+wwwroot\images\Delivery Time.png
+wwwroot\images\Eye.png
+wwwroot\images\High Importance.png
 wwwroot\images\Logo.png
 wwwroot\images\new.png
+wwwroot\images\Right Arrow.png
+wwwroot\images\Spinner.png
+wwwroot\images\Tags.png
 wwwroot\images\ToDo.png
+wwwroot\images\Tune.png
 wwwroot\images\user.png
 wwwroot\js\site.js
+wwwroot\js\Tasks.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
