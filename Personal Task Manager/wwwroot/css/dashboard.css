@@ -168,16 +168,25 @@
 }
 
 .priority-box {
-    padding: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 12px;
     flex: 1 1 20%; /* Each box takes up 22% of the row, allowing for 4 in a row */
     min-width: 225px; /* Minimum width for each box */
     /*width: 225px;*/
     color: white;
+    font-weight: bold;
+    gap: 20px;
+
+
+    
+    margin-bottom: 12px;
+   
 }
 
-.priority-box-title {
+.priority-title {
     font-size: 22px;
+    margin: 15px;
 }
 
 .priority-box.high {
@@ -188,12 +197,28 @@
     background: #c17fff;
 }
 
-.priority-label {
-    display: inline-block;
+.priority-box p {
+    margin: 15px;
+    font-size: 16px;
+    color: white;
+}
+.priority-box-label {
+    /*display: inline-block;
     padding: 5px 10px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    font-size: 12px;
+    font-size: 12px;*/
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-size: 14px;
+    width: fit-content; /*✅ This is key */
+    align-self: flex-start; /*Prevents full stretch inside flex column */
 }
 
 .task-list-container {

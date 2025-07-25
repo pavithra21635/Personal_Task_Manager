@@ -103,7 +103,7 @@
     cursor: grab;
     display: flex;
     flex-direction: column;
-    gap: 20px;  controls space between title, date, label 
+    gap: 20px; /* controls space between title, date, label */
 }
 
 

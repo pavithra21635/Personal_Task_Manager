@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SQeImHeuY2iPzyPzSdYcNm5+BNmm7o+HeJ2gYI/g8V8=",
+  "Hash": "pJTvOSGzMBrX1dsxxbgPtx+Wv2AkJLP+GD2BQcRxMAw=",
   "Source": "Personal Task Manager",
   "BasePath": "_content/Personal Task Manager",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "txmdmdisq0",
-      "Integrity": "nwCwhswy9AnZyLnhLFvWq/g2IWE6vqEufbJxH2ed7ko=",
+      "Fingerprint": "2u25lt3nm8",
+      "Integrity": "mlZ9ZJgbRhUXJVTtTXlLSZFAvrYKma3L19ro5LcuXp0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ojerp5e9wg",
-      "Integrity": "nHCz12bhOOCvpHjF0PSFVfETyHzUSWIH2iiRxHPKY04=",
+      "Fingerprint": "lx47rbmxkm",
+      "Integrity": "R0TkLGHWowCjLtob9dJLfaoBcRdPciVGc99u+Z1xNDI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Tasks.css"
@@ -493,8 +493,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xh0n9wtwiq",
-      "Integrity": "u6SNHH8cha2vckXK6XK1/m/z6iDnoA9D12UDXrQjJKY=",
+      "Fingerprint": "dgldd9w76k",
+      "Integrity": "I6GdLdD03jjt7FcvqvdQ1TgQe+c+5Q3c6w1EvYnb9Zs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Tasks.js"
@@ -1781,6 +1781,51 @@
       ]
     },
     {
+      "Route": "css/dashboard.2u25lt3nm8.css",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mlZ9ZJgbRhUXJVTtTXlLSZFAvrYKma3L19ro5LcuXp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 12:23:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2u25lt3nm8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/dashboard.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mlZ9ZJgbRhUXJVTtTXlLSZFAvrYKma3L19ro5LcuXp0="
+        }
+      ]
+    },
+    {
       "Route": "css/dashboard.css",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
       "Selectors": [],
@@ -1791,7 +1836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5236"
+          "Value": "5826"
         },
         {
           "Name": "Content-Type",
@@ -1799,11 +1844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nwCwhswy9AnZyLnhLFvWq/g2IWE6vqEufbJxH2ed7ko=\""
+          "Value": "\"mlZ9ZJgbRhUXJVTtTXlLSZFAvrYKma3L19ro5LcuXp0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 09:59:46 GMT"
+          "Value": "Mon, 02 Jun 2025 12:23:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1813,52 +1858,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nwCwhswy9AnZyLnhLFvWq/g2IWE6vqEufbJxH2ed7ko="
-        }
-      ]
-    },
-    {
-      "Route": "css/dashboard.txmdmdisq0.css",
-      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\dashboard.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nwCwhswy9AnZyLnhLFvWq/g2IWE6vqEufbJxH2ed7ko=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 25 May 2025 09:59:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "txmdmdisq0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/dashboard.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nwCwhswy9AnZyLnhLFvWq/g2IWE6vqEufbJxH2ed7ko="
+          "Value": "sha256-mlZ9ZJgbRhUXJVTtTXlLSZFAvrYKma3L19ro5LcuXp0="
         }
       ]
     },
@@ -1955,7 +1955,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6728"
+          "Value": "7190"
         },
         {
           "Name": "Content-Type",
@@ -1963,11 +1963,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nHCz12bhOOCvpHjF0PSFVfETyHzUSWIH2iiRxHPKY04=\""
+          "Value": "\"R0TkLGHWowCjLtob9dJLfaoBcRdPciVGc99u+Z1xNDI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 09:16:30 GMT"
+          "Value": "Mon, 02 Jun 2025 12:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1977,12 +1977,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nHCz12bhOOCvpHjF0PSFVfETyHzUSWIH2iiRxHPKY04="
+          "Value": "sha256-R0TkLGHWowCjLtob9dJLfaoBcRdPciVGc99u+Z1xNDI="
         }
       ]
     },
     {
-      "Route": "css/Tasks.ojerp5e9wg.css",
+      "Route": "css/Tasks.lx47rbmxkm.css",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\css\\Tasks.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1992,7 +1992,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6728"
+          "Value": "7190"
         },
         {
           "Name": "Content-Type",
@@ -2000,11 +2000,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nHCz12bhOOCvpHjF0PSFVfETyHzUSWIH2iiRxHPKY04=\""
+          "Value": "\"R0TkLGHWowCjLtob9dJLfaoBcRdPciVGc99u+Z1xNDI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 09:16:30 GMT"
+          "Value": "Mon, 02 Jun 2025 12:15:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2014,7 +2014,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ojerp5e9wg"
+          "Value": "lx47rbmxkm"
         },
         {
           "Name": "label",
@@ -2022,7 +2022,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nHCz12bhOOCvpHjF0PSFVfETyHzUSWIH2iiRxHPKY04="
+          "Value": "sha256-R0TkLGHWowCjLtob9dJLfaoBcRdPciVGc99u+Z1xNDI="
         }
       ]
     },
@@ -3339,6 +3339,51 @@
       ]
     },
     {
+      "Route": "js/Tasks.dgldd9w76k.js",
+      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6GdLdD03jjt7FcvqvdQ1TgQe+c+5Q3c6w1EvYnb9Zs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 10:23:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dgldd9w76k"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Tasks.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6GdLdD03jjt7FcvqvdQ1TgQe+c+5Q3c6w1EvYnb9Zs="
+        }
+      ]
+    },
+    {
       "Route": "js/Tasks.js",
       "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
       "Selectors": [],
@@ -3349,7 +3394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6336"
+          "Value": "8666"
         },
         {
           "Name": "Content-Type",
@@ -3357,11 +3402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u6SNHH8cha2vckXK6XK1/m/z6iDnoA9D12UDXrQjJKY=\""
+          "Value": "\"I6GdLdD03jjt7FcvqvdQ1TgQe+c+5Q3c6w1EvYnb9Zs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 09:37:18 GMT"
+          "Value": "Tue, 27 May 2025 10:23:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3371,52 +3416,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u6SNHH8cha2vckXK6XK1/m/z6iDnoA9D12UDXrQjJKY="
-        }
-      ]
-    },
-    {
-      "Route": "js/Tasks.xh0n9wtwiq.js",
-      "AssetFile": "C:\\Users\\pavit\\source\\repos\\Personal_Task_Manager\\Personal Task Manager\\wwwroot\\js\\Tasks.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6336"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u6SNHH8cha2vckXK6XK1/m/z6iDnoA9D12UDXrQjJKY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 May 2025 09:37:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xh0n9wtwiq"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Tasks.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-u6SNHH8cha2vckXK6XK1/m/z6iDnoA9D12UDXrQjJKY="
+          "Value": "sha256-I6GdLdD03jjt7FcvqvdQ1TgQe+c+5Q3c6w1EvYnb9Zs="
         }
       ]
     },
