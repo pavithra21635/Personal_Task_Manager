@@ -48,9 +48,9 @@
             @foreach (var task in Model)
             {
                 <div class="priority-box @task.Priority.ToLower()">
-                    <h4 class="priority-box-title">@task.Title</h4>
+                    <h4 class="priority-title">@task.Title</h4>
                     <p>@task.DueDate.ToString("dd/MM/yyyy")</p>
-                    <span class="priority-label">@task.Priority</span>
+                    <span class="priority-box-label">@task.Priority</span>
                 </div>
             }
         </div>
